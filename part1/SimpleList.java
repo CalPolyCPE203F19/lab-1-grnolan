@@ -15,6 +15,12 @@ class SimpleList
          input list into the output list.  Use a "foreach".
       */
 
+      
+      for (int val: squareAll) {
+         int square = Math.pow(val, 2);
+         newValues.add(square);
+      }
+
       return newValues;
    }
 }
