@@ -16,8 +16,8 @@ class SimpleList
       */
 
       
-      for (int val: squareAll) {
-         int square = Math.pow(val, 2);
+      for (int val : values) {
+         int square = val * val;
          newValues.add(square);
       }
 
