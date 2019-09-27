@@ -5,6 +5,7 @@ class BetterLoop
       /* TO DO: if value v is in the array, return true.
          If not, return false.  Use a "foreach" loop.
       */
+
       for (int i = 0; i < values.length; i++) {
          if (v == values[i]) {
             return true;
