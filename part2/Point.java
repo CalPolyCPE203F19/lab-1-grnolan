@@ -26,7 +26,7 @@ public class Point
    {
       double newX = - y;
       double newY = x;
-       return new Point (newX, newY); 
+      return new Point (newX, newY); 
    }
 
 }
