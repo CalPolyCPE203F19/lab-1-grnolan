@@ -14,7 +14,10 @@ class SimpleIf
          return y;
       }
 
+      if (x == y) {
+         return x;
+      }
 
-      return 0; // clearly not correct -- but testable
+   return 0.0;
    }
 }
