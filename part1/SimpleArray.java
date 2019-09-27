@@ -6,6 +6,7 @@ class SimpleArray
          input array.  The length of an array is accessible through
          an array's length field (e.g., values.length).
       */
+
       int [] newValues = new int[values.length];  // This allocates an array of integers.
 
       /* TO DO: The output array, newValues, should hold as
